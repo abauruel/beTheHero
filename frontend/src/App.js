@@ -1,11 +1,10 @@
 import React from "react";
 
+import Router from "./routes";
+
+import "./global.css";
 function App() {
-  return (
-    <div>
-      <h1>Hello CRA</h1>
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
